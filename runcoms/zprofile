@@ -72,9 +72,3 @@ if [[ ! -d "$TMPDIR" ]]; then
 fi
 
 TMPPREFIX="${TMPDIR%/}/zsh"
-
-#
-# Aliases (PM)
-#
-
-source ~/.aliases
