@@ -77,20 +77,4 @@ TMPPREFIX="${TMPDIR%/}/zsh"
 # Aliases (PM)
 #
 
-
-alias p="mpc toggle"
-alias n="mpc next"
-
-alias res="mplayer http://radio.canstream.co.uk:8004/live.mp3"
-alias nts="mplayer http://134.213.27.207:8000/listen.pls"
-alias rad4="get_iplayer --stream --type=liveradio \"Radio 4 FM\" --player=\"mplayer -cache 256 -\" --modes=hlsaacstd"
-alias rad3="get_iplayer --stream --type=liveradio \"Radio 3 FM\" --player=\"mplayer -cache 256 -\" --modes=hlsaacstd"
-
-alias m="mplayer"
-
-alias dream="ssh 'paumar52@william-livingston.dreamhost.com'"
-alias youandme="ssh 'alibor4@coweta.dreamhost.com'"
-alias helpdesk="ssh helpdesk@helpdesk.staronline.org.uk"
-
-alias dual="xrandr --output VGA1 --primary --auto --mode 1920x1080 --output LVDS1 --auto --mode 1600x900 --left-of VGA1"
-alias single="xrandr --output LVDS1 --auto --mode 1600x900 --output VGA1 --off"
+source ~/.aliases
