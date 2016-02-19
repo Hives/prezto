@@ -13,3 +13,7 @@ fi
 # Customize to your needs...
 
 source "${ZDOTDIR:-$HOME}/.aliases"
+
+# from https://wiki.archlinux.org/index.php/Python/Virtualenv
+export WORKON_HOME=~/.virtualenvs
+source /usr/bin/virtualenvwrapper.sh
