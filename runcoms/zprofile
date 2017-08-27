@@ -11,6 +11,9 @@
 
 if [[ "$OSTYPE" == darwin* ]]; then
   export BROWSER='open'
+else
+  export BROWSER='google-chrome-stable'
+#  export BROWSER='firefox'
 fi
 
 #
@@ -44,7 +47,7 @@ typeset -gU cdpath fpath mailpath path
 # Set the list of directories that Zsh searches for programs.
 path=(
   /usr/local/{bin,sbin}
-  /home/hives/Documents/scripts
+  /home/hives/bin
   $path
 )
 
